@@ -21,7 +21,7 @@ app.use('/api/setting', settingRouter)
 app.use('/api/dashboard', dashboardRouter)
 
 
-app.listen(process.env.PORT, () => {
-    console.log(`Server is running on PORT ${process.env.PORT}`)
-})
-
+// app.listen(process.env.PORT, () => {
+//     console.log(`Server is running on PORT ${process.env.PORT}`)
+// })
+export default serverless(app);
