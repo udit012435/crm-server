@@ -15,7 +15,7 @@ const leaveSchema = new Schema({
         enum: ["Pending", "Approved", "Rejected"],
         default: "Pending",
     },
-    applieAt: {type: Date, default: Date.now},
+    appliedAt: {type: Date, default: Date.now},
     updatedAt: {type: Date, default: Date.now},
 })
 

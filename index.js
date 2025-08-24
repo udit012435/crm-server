@@ -12,7 +12,8 @@ connectToDatabase()
 const app = express()
 app.use(cors(
     {
-        origin: "https://employees-iota.vercel.app",
+        // origin: "https://employees-iota.vercel.app",
+        origin: "*",
         credentials: true
     }
 ))
