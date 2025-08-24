@@ -1,4 +1,4 @@
-import Employee from "../models/Employee.js"
+import Employee from "../models/employee.js"
 import Leave from "../models/Leave.js"
 
 
